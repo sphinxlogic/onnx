@@ -55,7 +55,7 @@ jobs:
       - name: pytest
         run: pixi run -e ${{ matrix.environment }} pytest
       - name: Issue on failure
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         if: ${{ failure() && github.ref == 'refs/heads/main' }}
         with:
           script: |
