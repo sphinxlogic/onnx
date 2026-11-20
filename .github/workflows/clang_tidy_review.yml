@@ -33,4 +33,4 @@ jobs:
           build_dir: ".setuptools-cmake-build"
           exclude: "/third_party/*"
           split_workflow: true
-      - uses: ZedThree/clang-tidy-review/upload@4ea7f7b72e7e039588ef5e64de9a845e5a3f8db5 # v0.21.0
+      - uses: ZedThree/clang-tidy-review/upload@438014136def4cb6242e9d0ef3da1a1cd48fa7ce # v0.23.1
