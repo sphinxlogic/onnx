@@ -54,7 +54,7 @@ jobs:
         git diff -- . ':(exclude)onnx/onnx-data.proto' ':(exclude)onnx/onnx-data.proto3'
 
     - name: Commit changes with updated files
-      uses: stefanzweifel/git-auto-commit-action@28e16e81777b558cc906c8750092100bbb34c5e3 # v7.0.0
+      uses: stefanzweifel/git-auto-commit-action@d0b01107b5db882071f96de5dd4b54961ea93f4c # v7.2.1
       with:
         commit_message: CI:apply auto updated documentation/backend test data
         commit_options: "--signoff"
